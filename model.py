@@ -1,3 +1,8 @@
+#################################################################################
+# Migrated DeepLabV3 code from TensorFlow to PyTorch.
+# Original Tensorflow code from https://keras.io/examples/vision/deeplabv3_plus/
+#################################################################################
+
 class ConvBlock(nn.Module):
   def __init__(self,num_filters=256, kernel_size=3, dilation_rate=1, padding_mode='same', use_bias =False):
     super().__init__()
